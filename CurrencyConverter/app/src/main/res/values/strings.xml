@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CurrencyConverter</string>
+    <string name="title">USD to Japanese YEN converter</string>
+    <string name="text1">Convert</string>
+</resources>

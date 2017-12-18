@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tan089.currencyconverter.MainActivity"
+    android:orientation="vertical">
+    <!-- TextView display strings/texts-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        />
+   <!-- EditText store user's inputs-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter USD"
+        android:id="@+id/EditText01"
+        android:inputType="number"/>
+    <!--Responding to Click Events-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/text1"
+        android:id="@+id/bnt"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:id="@+id/Yen"
+        android:textColor="#000"
+        />
+</LinearLayout>
