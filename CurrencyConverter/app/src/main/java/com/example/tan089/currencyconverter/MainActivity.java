@@ -30,13 +30,19 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View convertToYen) {
                 //covert user's input to string
                 usd = editText01.getText().toString();
-                //Convert string to double
-                Double dInputs = Double.parseDouble(usd);
-                //Convert function
-                Double result = dInputs * 112.57;
-                //Display the result
-                textView01.setText("$" + usd + " = " + String.format("%.2f", result) + " " + "Yen");
-
+                //if-else statement to make sure user cannot leave the EditText blank
+                if (usd.equals("")){
+                    textView01.setText("This field cannot be blank!");
+                } else {
+                    //Convert string to double
+                    Double dInputs = Double.parseDouble(usd);
+                    //Convert function
+                    Double result = dInputs * 112.57;
+                    //Display the result
+                    textView01.setText("$" + usd + " = " + "¥"+String.format("%.2f", result));
+                    //clear the edittext after clicking
+                    editText01.setText("");
+                }
             }
         });
     }
