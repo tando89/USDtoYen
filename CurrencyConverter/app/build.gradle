@@ -3,8 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.example.tan089.currencyconverter"
-        minSdkVersion 15
+        applicationId "com.example.redmo.currencyconverter"
+        minSdkVersion 22
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
