@@ -1,4 +1,4 @@
-package com.example.tan089.currencyconverter;
+package com.example.redmo.currencyconverter;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.tan089.currencyconverter", appContext.getPackageName());
+        assertEquals("com.example.redmo.currencyconverter", appContext.getPackageName());
     }
 }

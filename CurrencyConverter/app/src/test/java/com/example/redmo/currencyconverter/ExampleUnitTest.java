@@ -1,4 +1,4 @@
-package com.example.tan089.currencyconverter;
+package com.example.redmo.currencyconverter;
 
 import org.junit.Test;
 
